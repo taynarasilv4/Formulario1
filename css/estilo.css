@@ -1,0 +1,71 @@
+body{
+    background-color: rgba(142, 248, 208, 0.418);
+}
+
+#Todo{
+    background-color:white;
+    width: 40%;
+    height: auto;
+    margin: auto;
+    margin-top: 90px;
+    border-radius: 15px;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.Grupo{
+    display: flex;
+}
+
+.form{
+    width: 50%;
+}
+
+.form input[type=text]
+{
+    width: 90%;
+    padding-top: 10px;
+}
+
+.Grupo input[type=radio]
+{
+    width: auto;
+}
+
+.Radios{
+    width: 46%;
+    padding: 8px;
+    margin: auto;
+    border: 0.06em solid #ccc;
+    margin-right: 4%;
+}
+#Todo input[type=tex]
+{
+    width: 87%;
+    padding-top: 10px;
+}
+#Todo input[type=email]
+{
+    width: 95%;
+    padding-top: 10px;
+}
+
+
+#Todo input[type=submit]{
+    background-color: green;
+    color: white;
+    width: 96%;
+    padding-top: 10px;
+    margin-top:20px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+textarea{
+    width: 95%;
+}
+
